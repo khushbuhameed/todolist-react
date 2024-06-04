@@ -74,7 +74,7 @@ function App() {
     <Navbar />
     
      <div className="mx-3 md:container md:mx-auto my-5 rounded-xl p-5 bg-slate-200 min-h-[89vh] md:w-2/5">
-      <h1 className=' text-center text-3xl font-bold'>iTask - Manage your todos at one place</h1>
+      <h1 className=' text-center text-3xl font-bold'>iTask - Manager your todos at one place</h1>
       <div className="addtodo my-5 flex flex-col gap-4">
         <h2 className='text-xl font-bold'>Add  a ToDo</h2>
         <input onChange={handleChange} value={todo} type="text"className='w-full rounded-lg px-5 py-3' placeholder='Add Somthing here!' />
